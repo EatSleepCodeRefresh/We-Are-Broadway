@@ -52,8 +52,10 @@ body {
   color: #000000;
   font-family: 'Revalia', cursive;
   font-weight: 600;
-  font-size: 70px;
+  font-size: 100px;
+  text-shadow: 2px 2px white;
   text-align: center;
+  padding: 2em;
   margin-top: 0;
   margin-bottom: 80px;
   text-transform: uppercase;
