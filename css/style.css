@@ -1,0 +1,198 @@
+body {
+  background: url("../images/home.jpg");
+  background-size: cover;
+} 
+.home {
+	background: white;
+	color: black;
+	height: 100px;
+	width: 100px;
+}
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.nav {
+  margin: 0;
+  padding: 20px 0;
+  display: inline;
+  
+}
+
+.nav li {
+  display: inline;
+  padding: 40px;
+  color: #fff;
+  font-family: 'Bellefair', serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.nav a:hover {
+	color: green;
+}
+
+.nav a:visited {
+	color: yellow;
+}
+
+.nav a:active {
+	color: red;
+}
+
+#apple {
+	height: 400px;
+	
+	text-align: center;
+}
+
+ h1 {
+  color: #000000;
+  font-family: 'Revalia', cursive;
+  font-weight: 600;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+
+img {
+	height: 532px;
+	width: 100%;
+	border-radius: 3em;
+}
+
+.work {
+	border: solid purple;
+	background: green;
+	height: 300px;
+	width: 300px;
+	padding: 1em;
+	margin: 3em;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+h3 {
+	background: #000000;
+	border-radius: 3em;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Bellefair', serif;
+	color: #00ff00;
+	
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  font-family: 'Bellefair', serif;
+  text-transform: uppercase;
+}
+
+
+.button1 {
+    background: linear-gradient(to bottom, #ffff66 0%, #ff6600 100%);
+    color: #000000;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#button{
+	padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#tb {
+	text-align: center;
+}
+	
+}
+h1 {
+	font-size: 100px;
+	text-align: center;
+	
+}
+
+h5 {
+	font-size: 25px;
+	color: #00e600;
+	text-shadow: 2px 2px black;
+	text-align: left;
+}
+
+form {
+	
+	float: left;
+	padding: 0em;
+	margin: 0em;
+	}
+
+form label {
+	display: inline-block;
+	font-size: 25px;
+	color: #000000; 
+	text-align: left;
+	margin: -1em;
+	padding: 1em;
+	width: 100%;
+	color: #00e600;
+	text-shadow: 2px 2px black;
+	}
+	
+form ul {
+	color: yellow;
+	text-align: left;
+	padding: 1em;
+	}
+	
+form li {
+	font-size: 25px;
+	color: #00e600;
+	text-shadow: 2px 2px black;
+}
+	
+form input {
+	padding: 1em;
+	margin: 1em;
+	}
+
+
+.footer {
+  position: bottom;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+@media (max-width: 500px) {
+  .main h1 {
+    font-size: 50px;
+    padding: 0 40px;
+  }
+
+  .supporting .col {
+    width: 100%;
+  }
+}
