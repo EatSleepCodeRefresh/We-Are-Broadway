@@ -1,6 +1,7 @@
 body {
   background: url("../images/home.jpg");
   background-size: cover;
+  background-attachment: fixed;
 } 
 .home {
 	background: white;
@@ -68,6 +69,10 @@ img {
 	border-radius: 3em;
 }
 
+img .about {
+	max-width: 100%;
+}
+
 .work {
 	border: solid purple;
 	background: green;
@@ -78,10 +83,15 @@ img {
 	text-align: center;
 }
 
+.work:hover{
+	opacity: .5;
+}
+
 p {
 	text-align: center;
 	font-size: 35px;
 	font-weight: 600;
+	text-shadow: 2px 2px white;
 }
 
 h3 {
@@ -179,13 +189,23 @@ form input {
   width: 100%;
   background-color: #333;
   color: #fff;
-  padding: 30px 0;
+  padding:2px 0;
 }
 
-.footer p {
-  font-family: 'Raleway', sans-serif;
+
+#career {
+	 font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 11px;
+}
+
+.footer h6 {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 @media (max-width: 500px) {
